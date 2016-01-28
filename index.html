@@ -355,7 +355,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   font-weight: bold;
 }
 
-/*Custom styles by Mike*/
+h1 {
+  margin: 0; }
 
 #slide-1 {
   text-align: center; }
@@ -412,17 +413,11 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   </div>
   <div class="slide hidden" id="slide-5">
     <section class="slide-content"><h3 id="instalemos-gulp-">Instalemos Gulp!</h3>
-<pre><code># Instala primero de manera global para tener acceso al CLI
-$ npm install -g gulp
+<pre><code>$ npm install -g gulp
 
-# Luego de manera local para configurar cosas
 $ npm install --save-dev gulp
 
-# Crea un archivo gulpfile.js en la raíz de tu proyecto
-$ touch gulpfile.js
-
-# Abramos en Atom!
-$ atom .</code></pre>
+$ touch gulpfile.js</code></pre>
 <p>Let&#39;s go!
 <img src="img/letsgo.gif" alt="Let&#39;s Go!"></p>
 </section>
@@ -450,7 +445,7 @@ gulp.task(&#39;hello&#39;, function() {
 </section>
   </div>
   <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><h1 id="compilar-sass-a-css">Compilar Sass a CSS</h1>
+    <section class="slide-content"><h3 id="compilar-sass-a-css">Compilar Sass a CSS</h3>
 <pre><code>&#39;use strict&#39;;
 
 var gulp = require(&#39;gulp&#39;);
@@ -464,7 +459,7 @@ gulp.task(&#39;sass&#39;, function () {
 </section>
   </div>
   <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><h1 id="vigilemos-cambios-">Vigilemos cambios!</h1>
+    <section class="slide-content"><h3 id="vigilemos-cambios-">Vigilemos cambios!</h3>
 <pre><code>gulp.task(&#39;watch&#39;, function () {
   gulp.watch(&#39;./sass/**/*.sass&#39;, [&#39;sass&#39;]);
 });</code></pre>
@@ -508,6 +503,11 @@ gulp.task &#39;sass&#39;, -&gt;
 </section>
   </div>
   <div class="slide hidden" id="slide-13">
+    <section class="slide-content"><h1 id="ver-online">Ver Online</h1>
+<p><a href="http://mike3run.github.io/gulp-talk/">http://mike3run.github.io/gulp-talk/</a></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-14">
     <section class="slide-content"><div class="author">
   <h1 class="name">Miguel Palau</h1>
     <h3 class="twitter">

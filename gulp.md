@@ -33,17 +33,12 @@ https://www.npmjs.com/
 ### Instalemos Gulp!
 
 ```
-# Instala primero de manera global para tener acceso al CLI
 $ npm install -g gulp
 
-# Luego de manera local para configurar cosas
 $ npm install --save-dev gulp
 
-# Crea un archivo gulpfile.js en la raíz de tu proyecto
 $ touch gulpfile.js
 
-# Abramos en Atom!
-$ atom .
 ```
 Let's go!
 ![Let's Go!](img/letsgo.gif)
@@ -69,7 +64,7 @@ gulp.task('hello', function() {
 http://gulpjs.com/plugins/
 
 --
-# Compilar Sass a CSS
+### Compilar Sass a CSS
 
 ```
 'use strict';
@@ -85,7 +80,7 @@ gulp.task('sass', function () {
 ```
 
 --
-# Vigilemos cambios!
+### Vigilemos cambios!
 ```
 gulp.task('watch', function () {
   gulp.watch('./sass/**/*.sass', ['sass']);
@@ -127,3 +122,7 @@ https://github.com/mike3run/ground-zero
 ### Referencias
 http://www.sitepoint.com/introduction-gulp-js/
 http://blog.teamtreehouse.com/install-node-js-npm-mac
+
+--
+# Ver Online
+http://mike3run.github.io/gulp-talk/
