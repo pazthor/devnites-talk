@@ -1,16 +1,15 @@
-# Gulp como Herramienta para el Front-End
-Este es el respaldo digital de mi presentación sobre Gulp hecha para DevNights Beta 1.0.
-
+# presentación propuesta para la ponencia en DevNights.
 Puedes usar estas láminas para explicar lo que tengas que explicar solo recuerda atribuir 🍺
+(Está presentación fue tomada de las laminas  de [Miguel palau](https://github.com/mike3run/gulp-talk))
 
-![MRW I get to work and my boss isn't here.](http://i.imgur.com/bQegBtS.gif)
+
 
 ---
 
 ## Instrucciones de uso
 - `npm install -g cleaver`
 
-- `cleaver gulp.md`
+- `cleaver charla-Devnites.md`
 
 ---
 
