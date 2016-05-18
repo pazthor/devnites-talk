@@ -1,7 +1,7 @@
 {
-  "name": "devtalks-gulp",
+  "name": "devtalks-ICPC-tips",
   "version": "1.0.0",
-  "description": "mi presentación para devnights beta",
+  "description": "mi presentación para devnights",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,12 +15,12 @@
     "gulp",
     "nodejs"
   ],
-  "author": "@mpalau",
+  "author": "@pazthor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mike3run/gulp-talk/issues"
+    "url": "https://github.com/pazthor/"
   },
-  "homepage": "https://github.com/mike3run/gulp-talk#readme",
+  "homepage": "https://github.com/pazthor/",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.4",
