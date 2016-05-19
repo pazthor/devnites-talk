@@ -20,16 +20,17 @@ style: style.css
 
 --
 ### ¿Coach? ¿para programar?###
-
-- Tiene experiencia (se espera que pueda explicarla)
+# ![tuca coach](img/tuca-coach.jpg)
+--
+- Experiencia ( y se espera que pueda explicarla)
 - Explica como trabajar
 - Que estudiar
-- Lleva un registro de los avances del equipo
-- Les exige para mejorar
+- Conoce su progreso.
 - Los entrena...
 
 --
-# Propuesta
+### Propuesta
+# ![img](img/acm-nerds.jpg)
 
 --
 ### Paso 1
@@ -38,6 +39,12 @@ style: style.css
 - mejorar nuestros métodos de estudio
 - Planificar: hacer metas (alcanzables)
 - Leer libros de comprensión de problemas (Desing thinking?)
+
+--
+###Apoyense de los cursos en linea
+- [Master Algorithmic Programming Techniques](https://www.coursera.org/specializations/data-structures-algorithms)
+
+# ![cour](img/coursera.png)
 
 --
 ###Paso 2
@@ -54,4 +61,5 @@ style: style.css
 - Leer [Competitive Programming cpbook.net](http://cpbook.net/#downloads)
 
 --
-###Gracias.
+###Escuchen Jazz.
+# ![image](img/jazz.jpg)

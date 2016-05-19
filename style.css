@@ -11,9 +11,14 @@ h1 {
   #slide-2 a, #slide-3 a, #slide-4 a, #slide-7 a, #slide-11 a {
     display: block; }
 
+
+#slide-3 img {
+      max-width: 500px; }
+
 #slide-4 img {
-  max-width: 200px; }
+  max-width: 600px; }
 
 #slide-5 img {
   display: block;
+  max-width: 600px;
   margin-top: 10px; }
